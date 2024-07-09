@@ -28,13 +28,6 @@ export function NavBar() {
                 </div>
 
             </div>
-
-
-            {/* Login / Logout */}
-            <div className="fixed bottom-2 right-2 text-white p-5 ">
-                <NavLink to="login" className="btn accent lg">login</NavLink>
-                <button className="btn primary lg">logout</button>
-            </div>
         </div>
     )
 }

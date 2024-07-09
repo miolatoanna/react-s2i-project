@@ -15,7 +15,7 @@ export function RecipesPage() {
         <div>
             <h1 className="title">Home</h1>
 
-            <div className="flex flex-wrap justify-center">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center">
                 {recipes && recipes.map((recipe) => (
                     <RecipeCard key={recipe.id} recipe={recipe} />
                 ))}

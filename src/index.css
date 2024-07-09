@@ -36,7 +36,7 @@ html, body {
 }
 
 .btn.primary {
-    @apply bg-white hover:bg-sky-200 text-black
+    @apply bg-white hover:bg-lime-50 text-black
 }
 
 .btn.accent {
@@ -54,34 +54,6 @@ html, body {
 
 .btn.lg {
     @apply text-2xl
-}
-
-/* Forms */
-textarea,
-input[type="text"],
-input[type="password"],
-input[type="number"],
-input[type="email"] {
-    @apply text-black ;
-}
-
-textarea.error,
-input[type="password"].error,
-input[type="text"].error,
-input[type="number"].error,
-input[type="email"].error {
-    @apply bg-red-300
-}
-
-/* Table */
-/* TODO: FORSE NON SERVE - CONTROLLARE ALLA FINE SE TOGLIERLA */
-.table-auto th,
-.table-auto td {
-    @apply border-b border-b-blue-500 py-4 px-2
-}
-
-.table-auto.hover tr:hover {
-    @apply bg-blue-500
 }
 
 .backdrop-filter-custom {
