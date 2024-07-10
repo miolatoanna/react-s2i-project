@@ -1,6 +1,6 @@
 import {useNavigate, useParams} from "react-router-dom";
 import {useAppDispatch, useAppSelector} from "../store";
-import React, {useEffect} from "react";
+import {useEffect} from "react";
 import {getInfoRecipe} from "../store/actions/recipes";
 import nope from "../assets/nope.svg"
 import yeah from "../assets/yeah.svg"
