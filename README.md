@@ -5,7 +5,7 @@ Hello, this is my project about React on start2impact.
 It is a website designed for vegetarians. In fact inside the site the user will have the opportunity to search exclusively vegetarian recipes through the spoonacular API.
 
 
-You can try my project <a href="">HERE</a> on Netlify.
+You can try my project <a href="https://vegetarian-website-s2i-annamiolato.netlify.app/recipes">HERE</a> on Netlify.
 
 
 # How to use
