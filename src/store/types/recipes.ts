@@ -48,21 +48,9 @@ export interface ExtendedIngredient {
     consitency: string;
     id: number;
     image: string;
-    measures: Measures;
     meta: string[];
     name: string;
     original: string;
     originalName: string;
     unit: string;
-}
-
-export interface Measures {
-    metric: Metric;
-    us: Metric;
-}
-
-export interface Metric {
-    amount: number;
-    unitLong: string;
-    unitShort: string;
 }
