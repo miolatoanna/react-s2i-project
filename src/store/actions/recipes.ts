@@ -2,7 +2,7 @@ import axios from "axios";
 import {createAsyncThunk} from "@reduxjs/toolkit";
 import {InfoRecipe, Recipe} from "../types/recipes";
 
-const apiKey = '0a89dfd8a9914d2f9d6a1bac4ffa4f6a';
+const apiKey = import.meta.env.VITE_API_KEY;
 
 /**
  * API to get recipes list with vegetarian parameter
