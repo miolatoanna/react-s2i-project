@@ -5,13 +5,17 @@ import RecipeCard from '../components/RecipeCard';
 
 export function RecipesPage() {
     const dispatch = useAppDispatch();
-    const { recipes, searchResults } = useAppSelector((state) => state.recipes);
+    const { recipes, searchResults, loading } = useAppSelector((state) => state.recipes);
 
     useEffect(() => {
         dispatch(getRecipesList())
     }, [])
 
     const recipesToDisplay = searchResults.length > 0 ? searchResults : recipes;
+
+    if (loading) {
+        return <div style={{height: '100vh'}}>Loading...</div>
+    }
 
     return (
         <div>
